@@ -4,11 +4,21 @@
 // Step 2: Get the bar_for_fuzz and default_to_baz tests passing!
 // Execute the command `rustlings hint if2` if you want a hint :)
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 50a2a5a14e6ac54bbf1efd67a500d1cb3556ee1a
 pub fn fizz_if_foo(fizzish: &str) -> &str {
     if fizzish == "fizz" {
         "foo"
+    }else if fizzish =="fuzz"{
+        "bar"
     } else {
+<<<<<<< HEAD
         "1"
+=======
+        "baz"
+>>>>>>> 50a2a5a14e6ac54bbf1efd67a500d1cb3556ee1a
     }
 }
 

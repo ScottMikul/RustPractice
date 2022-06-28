@@ -11,6 +11,7 @@
 
 
 // Put your function here!
+<<<<<<< HEAD
 fn calculate_apple_price(num :i32) -> i32{
     if(num>40){
         num
@@ -18,6 +19,16 @@ fn calculate_apple_price(num :i32) -> i32{
         num*2
     }
 }
+=======
+ fn calculate_apple_price(input:i32 )-> i32 {
+    if (input > 40){
+        input
+    }else{
+        input * 2
+    }
+
+ }
+>>>>>>> 50a2a5a14e6ac54bbf1efd67a500d1cb3556ee1a
 
 // Don't modify this function!
 #[test]
